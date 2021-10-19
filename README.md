@@ -1,3 +1,5 @@
+![Build](https://github.com/eisber/ePaperTeamsSign/workflows/Windows-Build/badge.svg)
+
 # ePaperTeamsSign
 Using a rapsberry pi with a 2.7inch e-Paper HAT to display the current presence status.
 
