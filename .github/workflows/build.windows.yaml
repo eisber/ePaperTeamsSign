@@ -3,7 +3,7 @@ name: Windows-Build
 on: push
 
 jobs:
-  pull-request:
+  Windows-Desktop-Build:
     runs-on: windows-latest
     steps:
     - name: Checkout
@@ -17,4 +17,5 @@ jobs:
     - name: Build Desktop app
       run: |
         cd ePaperTeamsPresence.Desktop
+        msbuild -t:restore
         msbuild
