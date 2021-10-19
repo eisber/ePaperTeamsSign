@@ -16,7 +16,11 @@ The desktop renders the output and uses the raspberry pi as an external display.
 Edit the [App.config](ePaperTeamsPresence.Desktop/ePaperTeamsPresence.Desktop/App.config) and run the [Visual Studio Solution](ePaperTeamsPresence.Desktop/ePaperTeamsPresence.Desktop.sln).
 
 # Raspberry Pi
+The display server accepts:
 
+* 1x BMP for black pixels
+* 1x BMP for red pixels
+* 1x template JSON to designate pixel coordinates to render local information (time, temperature, humidity,...)
 
 Clone the repo and run 
 
