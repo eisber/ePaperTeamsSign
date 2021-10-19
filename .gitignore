@@ -2,3 +2,4 @@
 /ePaperTeamsPresence.Desktop/ePaperTeamsPresence.Desktop/*.csproj.user
 /ePaperTeamsPresence.Desktop/ePaperTeamsPresence.Desktop/bin
 /ePaperTeamsPresence.Desktop/ePaperTeamsPresence.Desktop/obj
+**/*.pyc
